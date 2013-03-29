@@ -2,6 +2,8 @@
 
 I was tired of i18n libraries that are large and complex to use, so I decided to create a new one that is extremely easy to use and that doesn't have any requirement.
 
+It's only 804 bytes.
+
 ## Usage
 
 Let's say that you want to translate a string (*Hi*).
