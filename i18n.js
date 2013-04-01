@@ -27,6 +27,8 @@ i18n.translate = function() {
 }
 
 i18n._ = _ = function(string, arr) {
+  if (lang == 'en')
+    return string;
   string = i18n.dict[lang][string];
   if (arr) {
     for (var i=0; i<arr.length; i++) {
